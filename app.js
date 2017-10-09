@@ -157,7 +157,7 @@ Item.clickHandler = function(event) {
         }
         var ctx = Item.canvas.getContext('2d');
         if(debug){console.log('chaaaaart');}
-        var chart = new Chart(ctx,{
+        new Chart(ctx,{
           type: 'bar',
           data: {
             labels: labels,
